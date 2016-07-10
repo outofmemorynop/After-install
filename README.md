@@ -92,8 +92,85 @@
   ```
 - **jnettop**
 
-  At first, edit the file:
+  Run the following command:
   ```
-  sudo gedit /etc/apt/sources.list
+  sudo apt-get -y install jnettop
   ```
-  
+- **iotop**
+
+  Run the following command:
+  ```
+  sudo apt-get -y install iotop
+  ```
+- **Automount**
+
+  Edit the second file:
+  ```
+  sudo vim /etc/fstab
+  ```
+  Insert the following commands:
+  ```
+  #UUID=656F1E4238CD1A6E /media/vaddemgen/windows-files ntfs defaults 0 1
+  UUID=4ef65469-6b62-433f-82b9-bde4d4bb2910 /media/vaddemgen/linux-files ext4 defaults 0 1
+  UUID=fcb1c92f-a0a9-48db-9a08-71d5d5164b5f /media/vaddemgen/virtual ext4 defaults 0 1
+  UUID=464c3f75-dd76-4bb5-b551-2ee0c4bec1a1 /media/vaddemgen/docs ext4 defaults 0
+  ```
+- **firewall**
+
+  Run the following command:
+  ```
+  sudo apt-get -y install gufw
+  ```
+- **inxi**
+
+  Run the following command:
+  ```
+  sudo apt-get -y install inxi
+  ```
+  Example of usage:
+  ```
+  inxi -b
+  ```
+- **aidax64**
+
+  See [Linux Extension for AIDA64](http://www.aida64.com/linux-extension-aida64)
+  File is located at directory ***/media/vaddemgen/linux-files/program-files/install/system/aida/*** as file **linuxextensionforaida64.tar.gz**
+- **Freedoom**
+
+  Run the following command:
+  ```
+  sudo apt-get -y install prboom
+  ```
+- **npm**
+
+  Run the following command:
+  ```
+  sudo apt-get -y install npm
+  ```
+- **xclip**
+
+  Run the following command:
+  ```
+  sudo apt-get -y install xclip
+  ```
+  Example of usage:
+  ```
+  xclip -sel clip < ~/.ssh/id_rsa.pub
+  ```
+- **fish**
+
+  Run the following commands:
+  ```
+  sudo apt-add-repository ppa:fish-shell/release-2
+  sudo apt-get update
+  sudo apt-get -y install fish
+  ```
+- **PuTTY**
+
+  See [PuTTY Download Page](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
+- **npm**
+
+  Run the following command:
+  ```
+  sudo apt-get -y install npm
+  ```
