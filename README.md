@@ -174,3 +174,9 @@
   ```
   sudo apt-get -y install npm
   ```
+- **Alarm clock**
+
+  Run the following command:
+  ```
+  sudo apt-get install alarm-clock-applet
+  ```
