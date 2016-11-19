@@ -35,6 +35,12 @@
   ```
   sudo apt-get -y install pavucontrol
   ```
+- **lzip**
+
+  Run the following command:
+  ```
+  sudo apt -y install lzip
+  ```
 - **vim**
 
   Run the following command:
@@ -184,7 +190,7 @@
 
   Run the following commands:
   ```
-  sudo nvidia-xconfig
   sudo apt install nvidia-375 -y
   sudo apt install nvidia-375-dev -y
+  sudo nvidia-xconfig
   ```
