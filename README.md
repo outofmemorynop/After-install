@@ -180,3 +180,11 @@
   ```
   sudo apt-get install alarm-clock-applet
   ```
+- **Nvidia**
+
+  Run the following commands:
+  ```
+  sudo nvidia-xconfig
+  sudo apt install nvidia-375 -y
+  sudo apt install nvidia-375-dev -y
+  ```
