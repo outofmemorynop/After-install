@@ -196,5 +196,9 @@
   ```
 
 ## Video
-- **handbrake** - The open source video transcoder
+- **handbrake** - the open source video transcoder.
   See [handbrake](https://handbrake.fr).
+
+## Image
+- **darktable** - is an open source photography workflow application and raw developer
+  See [darktable](http://www.darktable.org).
